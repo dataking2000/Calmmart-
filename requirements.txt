@@ -1,1 +1,4 @@
-python-telegram-bot\nflask
+python-telegram-bot
+flask
+supabase
+
