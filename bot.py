@@ -51,7 +51,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         f"🏆 *Welcome to CalmMart Ltd!*\n\n"
         f"Pay ₦10k: {pay_url}\n"
-        f"Your Link: `https://t.me/YourBotName?start={user_id}`", 
+        f"Your Link: `https://t.me/Calm_mart_bot?start={user_id}`", 
         parse_mode='Markdown'
     )
 
