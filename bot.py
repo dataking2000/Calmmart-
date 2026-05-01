@@ -43,7 +43,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             f"🏆 *Welcome to CalmMart Ltd!*\n\n"
             f"Step 1: Pay ₦10,000 here:\n{pay_url}\n\n"
             f"Step 2: Share your link to earn:\n"
-            f"`https://t.me/YourBotUsername?start={user_id}`", 
+            f"`https://t.me/Calm_mart_bot?start={user_id}`", 
             parse_mode='Markdown'
         )
     except Exception as e:
