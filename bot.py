@@ -6,9 +6,9 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from supabase import create_client, Client
 
 # --- 1. CONFIGURATION ---
-TOKEN = os.getenv('8748428989:AAEIPiInJiBnPoxZ_lNY0X345uLgLKWxX1E')
-SUPABASE_URL = os.getenv('https://ookitehmadvastflwbum.supabase.co/rest/v1/')
-SUPABASE_KEY = os.getenv('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9va2l0ZWhtYWR2YXN0Zmx3YnVtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzczNzg1ODMsImV4cCI6MjA5Mjk1NDU4M30.1T24zLQYe3F4QA-8Nj4fiuL9GgZhvp94C4kzW4Q2ZTM')
+TOKEN = os.getenv('BOT_TOKEN')
+SUPABASE_URL = os.getenv('SUPABASE_URL')
+SUPABASE_KEY = os.getenv('SUPABASE_KEY')
 REG_FEE = 10000
 COMMISSIONS = [0.15, 0.10, 0.05, 0.02, 0.01] # 5 Generations
 
